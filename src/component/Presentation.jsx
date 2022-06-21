@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion'
-import MovingText from 'react-moving-text'
+import {MovingText} from 'react-moving-text'
 import {AiOutlineDown} from 'react-icons/ai'
 
 export const Presentation = () => {

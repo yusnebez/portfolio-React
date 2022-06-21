@@ -6,9 +6,6 @@ import {SiMongodb} from 'react-icons/si'
 import {SiTypescript} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
 import {FaGitSquare} from 'react-icons/fa'
-import {} from 'react-icons'
-import {} from 'react-icons'
-
 
 
 export const Education = () => {

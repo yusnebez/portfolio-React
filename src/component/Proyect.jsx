@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'
 import {SiReact} from 'react-icons/si'
-import {FaBusinessTime, FaNodeJs} from 'react-icons/fa'
+import {FaNodeJs} from 'react-icons/fa'
 import {SiMongodb} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
 
