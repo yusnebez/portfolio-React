@@ -6,7 +6,7 @@ export const Presentation = () => {
     
   return (
     
-    <motion.div className="grid h-screen grid-cols-2 bg-cover grid-rows-6 bg-[#191919]"  id='presentation'
+    <motion.div className="md:grid h-screen grid-cols-2 bg-cover grid-rows-6 bg-[#191919]"  id='presentation'
   
     >
         <div  className='col-start-1 row-start-2'>
@@ -42,8 +42,8 @@ export const Presentation = () => {
                 Zebensui Herrera
             </MovingText>
         </div>
-        <div className='col-span-2 row-start-5 text-center'>
-            <MovingText className='mt-24 ml-4 text-lg text-white'
+        <div className='row-start-5 text-center md:col-span-2'>
+            <MovingText className='mt-24 ml-4 text-lg text-[#191919] md:text-white'
                 type="squeezeVertical"
                 duration="4000ms"
                 delay="0s"
@@ -54,10 +54,12 @@ export const Presentation = () => {
                 Scroll
             </MovingText>
         </div>
-        <div className='col-start-2 row-start-6'>
+        
+        <div className='hidden col-start-2 row-start-6 md:grid'>
             <button className='py-12 mb-1 ml-[0.4rem] border-l-2 border-white'></button>
             <AiOutlineDown className='mb-2 mr-2 text-white' />
         </div>
+        
         
     </motion.div>
   )
