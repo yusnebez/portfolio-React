@@ -1,8 +1,6 @@
 import { Education } from '../component/Education'
-import { Jobs } from '../component/Jobs'
 import {Nav} from '../component/Nav'
 import { Proyect } from '../component/Proyect'
-import { Buttontop } from '../component/Buttontop'
 import { Contact } from '../component/Contact'
 import { Presentation } from '../component/Presentation'
 
