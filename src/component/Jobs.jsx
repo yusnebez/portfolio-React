@@ -4,7 +4,7 @@ export const Jobs = () => {
 
 
   return (
-    <motion.div className='grid h-screen bg-[#3A4750]' id='jobs'
+    <motion.div className='md:grid h-screen bg-[#3A4750]' id='jobs'
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1  }}
     >

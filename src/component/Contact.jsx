@@ -8,23 +8,20 @@ export const Contact = () => {
       return <p>Thanks for joining!</p>;
   }
   return (
-    <motion.div className="h-screen grid grid-cols-2 bg-[#191919]"
+    <motion.div className="lg:h-screen grid lg:grid-cols-2 bg-[#191919]"
     id='contact'
     whileInView={{ opacity:1 }}
     transition={{duration: 1}}
     >
         
-        <div className='grid grid-cols-1 grid-rows-4'>
-            <h1 className='row-start-2 ml-40 text-4xl font-bold text-[#6A98F0] mt-9'>Contacta</h1>
+            <div className='grid grid-cols-1 grid-rows-4'>
+                <h1 className='row-start-2 ml-40 text-4xl font-bold text-[#6A98F0] mt-9'>Contacta</h1>
                 <b className='row-start-3 ml-40 text-lg text-white'>No dudes en contactar conmigo </b>
-                
             </div>
             
-            <div className='grid content-center grid-cols-1 grid-row-4'>
-                
-                
+            <div className='grid content-center grid-cols-1'>
                 <form  onSubmit={handleSubmit}>
-                    <input className='grid col-span-2 mt-20 text-white placeholder-white bg-[#232323] border-b-2 outline-none w-[35em] pb-3 border-black focus:border-b-2 focus:border-white font-bold text-xl'
+                    <input className='grid col-span-2 mt-20 text-white placeholder-white bg-[#232323] border-b-2 outline-none lg:w-[35em] pb-3 border-black focus:border-b-2 focus:border-white font-bold text-xl'
                         id="email"
                         type="email" 
                         name="email"
@@ -35,7 +32,7 @@ export const Contact = () => {
                         field="email"
                         errors={state.errors}
                     />
-                    <textarea className='mt-16 font-bold text-white bg-[#232323] placeholder-white  border-b-2 outline-none border-black focus:border-b-2 focus:border-white w-[35em] h-[10em] text-xl'
+                    <textarea className='mt-16 font-bold text-white bg-[#232323] placeholder-white  border-b-2 outline-none border-black focus:border-b-2 focus:border-white lg:w-[35em] lg:h-[10em] text-xl'
                         id="message"
                         name="message"
                         placeholder=' Your Message' 
@@ -49,6 +46,9 @@ export const Contact = () => {
                         Contact Me
                     </button>
                 </form>
+            </div>
+            <div className='grid text-white grid-col-1 grid-row-1'>
+                <p>boton</p>
             </div>
     </motion.div>
   );

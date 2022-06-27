@@ -9,7 +9,7 @@ import { Presentation } from '../component/Presentation'
 export const Home = () => {
   return (
     < >
-      <div className='grid w-screen h-screen'>
+      <div className='grid lg:h-screen lg:w-screen'>
         <Nav/>
         <Presentation /> 
         <Education />

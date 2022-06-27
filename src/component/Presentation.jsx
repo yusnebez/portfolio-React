@@ -6,11 +6,11 @@ export const Presentation = () => {
     
   return (
     
-    <motion.div className="md:grid h-screen grid-cols-2 bg-cover grid-rows-6 bg-[#191919]"  id='presentation'
+    <motion.div className="grid lg:h-screen lg:grid-cols-2 bg-cover lg:grid-rows-2 bg-[#191919]"  id='presentation'
   
     >
-        <div  className='col-start-1 row-start-2'>
-            <MovingText className='mt-16 ml-40 text-4xl font-bold text-white'
+        <div  className='col-start-1 row-start-1 lg:row-start-2'>
+            <MovingText className='mt-48 ml-4 text-2xl font-bold text-white lg:mt-24 lg:text-4xl lg:ml-40'
                 type="fadeInFromBottom"
                 duration="3000ms"
                 delay="0s"
@@ -30,8 +30,8 @@ export const Presentation = () => {
                 </form>
             </MovingText>
         </div>
-        <div className='col-start-1 row-start-2'>
-            <MovingText className='mt-15 text-5xl font-bold text-[#6A98F0] ml-40 pb-2'
+        <div className='col-start-1 row-start-1'>
+            <MovingText className='lg:mt-80  mt-36 lg:text-5xl font-bold text-[#6A98F0] lg:ml-40 pb-2 text-2xl ml-4'
                 type="fadeInFromBottom"
                 duration="3000ms"
                 delay="0s"
