@@ -14,20 +14,20 @@ export const Education = () => {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1  }}
     >
-    <div className='grid grid-cols-2 grid-rows-2 lg:grid-rows-5 lg:h-[500px] lg:w-[1200px] mb-32 rounded-sm gap-4  '>
-      <div className='grid col-start-2 row-start-1'>
-        <p className='lg:mb-10  lg:text-3xl  ml-20 text-2xl text-[#6A98F0]'>Sobre Mi</p>
+    <div className='grid grid-cols-2 grid-rows-2 lg:grid-rows-5 lg:h-[500px] xl:w-[1200px] lg:mb-32 rounded-sm gap-4  '>
+      <div className='grid col-span-2 md:row-start-1 md:col-start-2'>
+        <p className='lg:mb-10 lg:text-3xl text-center md:text-left xl:ml-20 md:-ml-14 text-2xl text-[#6A98F0] mt-20 md:mt-30'>Sobre Mi</p>
       </div>
-      <div className='mt-20 pt-4 h-[200px] w-screen rounded-sm bg-[#232323] row-start-2 col-span-2'>
-        <p className='container grid mx-auto mt-10 mr-20 text-2xl text-center text-white '>Hola soy Zebensui Herrera Desarollador Web Full Stack y Tecnico Superior en Redes y sistemas informáticos. Apasionado de las tecnólogias y por ello al día de 
+      <div className='lg:mt-20 md:ml-20 pt-4 lg:h-[200px] md:w-[730px] h-[250px] xl:w-[1420px] lg:w-[980px] -mt-14 w-screen rounded-sm row-start-2  bg-[#232323] lg:row-start-2 col-span-2'>
+        <p className='container grid pl-4 pr-4 text-lg text-left text-white lg:mt-4 lg:mx-auto lg:text-2xl lg:mr-20 lg:text-center'>Hola soy Zebensui Herrera Desarollador Web Full Stack y Tecnico Superior en Redes y sistemas informáticos. Apasionado de las tecnólogias y por ello al día de 
         las posibles novedades y cambios en ellas. En este último año he realizado un Boot Cam de programación para ampliar mis conocimiento y adentrarme 
         laboralmente en el mundo del desarrollo.
         </p>
       </div>
-      <div className='grid col-span-2 row-start-3 gap-4 mt-44 lg:ml-96 lg:mt-64'>
-        <div className='grid ml-8 lg:grid-rows-1 lg:grid-cols-7 sm:grid-cols-3 sm:grid-rows-4'>
-          <SiJavascript className='grid col-start-1 sm:grid-rows-1 text-7xl text-[#6A98F0]' />
-          <SiTypescript className='grid lg:col-start-2 col-start-2 grid-row-1 text-7xl text-[#6A98F0]' />
+      <div className='grid col-span-2 row-start-3 gap-2 p-4 md:ml-16 mt-28 lg:ml-16 xl:ml-96 lg:mt-64'>
+        <div className='grid grid-cols-3 grid-rows-4 gap-2 ml-12 md:ml-24 lg:grid-rows-1 lg:grid-cols-8'>
+          <SiJavascript className='grid mb-4 col-start-1 sm:grid-rows-1 text-7xl text-[#6A98F0]' />
+          <SiTypescript className='grid mb-4 lg:col-start-2 col-start-2 grid-row-1 text-7xl text-[#6A98F0]' />
           <SiMongodb className='grid lg:col-start-3 col-start-3 grid-row-1 text-7xl text-[#6A98F0]'/>
           <SiReact  className='grid lg:col-start-4 text-7xl text-[#6A98F0]'/>
           <FaNodeJs className='grid lg:col-start-5 text-7xl text-[#6A98F0]'/>

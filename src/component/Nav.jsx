@@ -10,10 +10,10 @@ export const Nav = () => {
   
   return (
     <div className='fixed z-10 text-white '>
-      <ul className='text-center hidden  list-none  z-5 md:grid bg-[#151515] h-screen content-start w-[90px]'>
+      <ul className='text-center hidden  list-none  z-5 md:grid bg-[#151515] h-screen lg:h-[1000px] content-start w-[90px]'>
         <li className='mt-5 text-lg'>Zebensui<b className='text-[#6A98F0] text-lg'>.</b></li>
         <li className='pt-3 text-lg'>Full Stack</li>
-        <li className='pt-3 pb-3 text-lg mt-52 hover:text-[#6A98F0]'><Links activeClass="active"
+        <li className='pt-3 pb-3 text-lg lg:mt-52 md:mt-16 hover:text-[#6A98F0]'><Links activeClass="active"
           to="education"
           spy={true}
           smooth={true}
