@@ -6,7 +6,7 @@ import {BsLinkedin , BsGithub,} from 'react-icons/bs'
 export const Nav = () => {
   
   const [nav, setNav] = useState(false) 
-  const handleClick = () => setNav(!nav)
+  const handleClick = () => console.log(setNav(!nav))
   
   return (
     <div className='fixed z-10 text-white '>
@@ -38,19 +38,14 @@ export const Nav = () => {
         <li className='pt-3 mt-5 ml-6 hover:text-[#6A98F0]'><a href="https://www.github.com/yusnebez/"><BsGithub className='text-4xl' /></a></li>
         <li className='mt-12 mr-1 text-xs'><a href="https://www.linkedin.com/in/zebensuiherrera/"> © Zebensui 2022</a></li>
       </ul>
-      <div className='w-screen px-2 pt-2 bg-[#242424] md:hidden' onClick={handleClick}>
-                    {true ? <MenuIcon className='w-5'/> : <XIcon className='w-5'/>}
+      <div className='md:hidden' onClick={handleClick}>
+          {!nav ? <MenuIcon className='w-5'/> : <XIcon className='w-5'/>}
       </div> 
-      <ul className={!nav ? 'hidden': ' w-screen h-screen  bg-[#161616] md:hidden '}>
+      <ul onClickCapture={handleClick} className={!nav ? 'hidden' : 'w-[410px] mt-3 font-bold bg-[#191919] text-xl text-center md:hidden'}>
+      
+     
         <li className='w-full border-zinc-300 hover:text-[#D72323]'><Links activeClass="active"
           to="education"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-        >Jobs</Links></li>
-        <li className='w-full hover:text-[#D72323]'><Links  activeClass="active"
-          to="jobs"
           spy={true}
           smooth={true}
           offset={0}
