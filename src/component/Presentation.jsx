@@ -1,14 +1,19 @@
 import {motion} from 'framer-motion'
 import {AiOutlineDown} from 'react-icons/ai'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Presentation = () => {
+    
+    AOS.init()
+
     
   return (
     
     <motion.div className="grid lg:h-screen lg:grid-cols-2 bg-cover lg:grid-rows-2 bg-[#191919]"  id='presentation'
   
     >
-        <div  className='col-start-1 row-start-1 lg:row-start-2'>
+        <div data-aos="fade-up"  className='col-start-1 row-start-1 lg:row-start-2'>
             <div className='ml-4 text-2xl font-bold text-white mt-28 lg:mt-30 md:mt-24 lg:text-4xl md:ml-32 lg:ml-40 '
                 >
                 Desarrollador Full Stack 
