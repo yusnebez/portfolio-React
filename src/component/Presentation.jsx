@@ -46,8 +46,8 @@ export const Presentation = () => {
             </div>
         </div>
         
-        <div className='hidden col-start-2 row-start-6 lg:grid'>
-            <AiOutlineDown className='mb-16 mr-2 text-3xl text-white' />
+        <div data-aos="zoom-out-down" data-aos-duration='2000' className='hidden col-start-2 row-start-6 lg:grid'>
+            <AiOutlineDown  className='mb-16 mr-2 text-3xl text-white' />
         </div>
         
     </motion.div>
