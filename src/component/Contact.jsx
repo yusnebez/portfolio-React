@@ -17,8 +17,8 @@ export const Contact = () => {
     >
         
             <div className='grid grid-cols-2 grid-rows-3'>
-                <h1 className='row-start-2 md:ml-32 lg:ml-28 ml-28 text-4xl font-bold text-[#6A98F0] mt-9 col-span-2'>Contacta</h1>
-                <b className='col-span-2 row-start-3 mt-2 ml-16 text-lg text-white md:ml-32 lg:ml-28 lg:-mt-28 md:col-span-1'>No dudes en contactar conmigo </b>
+                <h1 className='row-start-2 md:ml-32 lg:ml-28 ml-28 text-4xl font-bold text-[#6A98F0] mt-9 col-span-2'>Si todo lo que has leido-visto te ha gustado</h1>
+                <b className='col-span-2 row-start-3 mt-2 ml-16 text-lg text-white md:ml-32 lg:ml-28 lg:-mt-28 md:col-span-1'>Contacta conmigo, !No lo dudes!. Soy quien necesitas-buscas </b>
             </div>
             
             <div className='grid content-center grid-cols-1 ml-16 md:ml-28 lg:ml-2'>
