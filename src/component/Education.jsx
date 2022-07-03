@@ -24,10 +24,11 @@ export const Education = () => {
         laboralmente en el mundo del desarrollo.
         </p>
         <p className='container grid pl-4 pr-4 text-lg text-left text-white lg:mt-4 lg:mx-auto lg:text-2xl lg:mr-20 lg:text-center'>
-          Hola soy Zebensui Herrera. Mi camino en la informática comenzo hace 25 años. Destacaría la experiencia
-          ganada siendo formador y de técnico de Apple, que me permitio escribir dos libros dígitales en el iBookStore.
-          Ser Técnico Superior de Sistemas y Redes y convertirme en desarrollador Full Stack, debido a mi curiosidad
-          y mis ganas por aprender a programar que siempre han estado latentes.
+          Hola soy Zebensui Herrera. De mi trayectoria profesional destacó mi trabajo como formador y técnico de Apple,
+          lo que me permitio escribir dos libros dígitales en el iBookStore.
+          Soy Técnico Superior de Sistemas y Redes, debido a mi curiosidad, las ganas de aprender 
+          y seguir avanzado en mi carrera, realicé un Bootcamp lo que me permitió tener otra oportunidad profesional, convirtiendome en
+          desarrollador full stack web.
         </p>
       </div>
       <div className='grid col-span-2 row-start-3 gap-2 p-4 md:ml-16 mt-28 lg:ml-16 xl:ml-96 lg:mt-64'>
