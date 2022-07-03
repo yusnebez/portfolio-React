@@ -19,16 +19,12 @@ export const Education = () => {
         <p className='lg:mb-10 lg:text-3xl text-center md:text-left xl:ml-20 md:-ml-14 text-2xl text-[#6A98F0] mt-20 md:mt-30'>Sobre Mi</p>
       </div>
       <div className='lg:mt-20 md:ml-20 pt-4 lg:h-[200px] md:w-[730px] h-[250px] xl:w-[1420px] lg:w-[980px] -mt-14 w-screen rounded-sm row-start-2  bg-[#232323] lg:row-start-2 col-span-2'>
-        <p className='container grid pl-4 pr-4 text-lg text-left text-white lg:mt-4 lg:mx-auto lg:text-2xl lg:mr-20 lg:text-center'>Hola soy Zebensui Herrera Desarollador Web Full Stack y Tecnico Superior en Redes y sistemas informáticos. Apasionado de las tecnólogias y por ello al día de 
-        las posibles novedades y cambios en ellas. En este último año he realizado un Boot Cam de programación para ampliar mis conocimiento y adentrarme 
-        laboralmente en el mundo del desarrollo.
-        </p>
         <p className='container grid pl-4 pr-4 text-lg text-left text-white lg:mt-4 lg:mx-auto lg:text-2xl lg:mr-20 lg:text-center'>
-          Hola soy Zebensui Herrera. De mi trayectoria profesional destacó mi trabajo como formador y técnico de Apple,
-          lo que me permitio escribir dos libros dígitales en el iBookStore.
+          Hola soy Zebensui Herrera. De mi trayectoria profesional destaco mi trabajo como formador y técnico de Apple;
+          mi pasión por la enseñanza me llevo a escribir así como a publicar dos libros dígitales en el iBookStore.
           Soy Técnico Superior de Sistemas y Redes, debido a mi curiosidad, las ganas de aprender 
-          y seguir avanzado en mi carrera, realicé un Bootcamp lo que me permitió tener otra oportunidad profesional, convirtiendome en
-          desarrollador full stack web.
+          y de seguir avanzado en mi carrera, realicé un Bootcamp lo que me permitió seguir aumentado mis capacidades profesionales como 
+          desarrollador Full Stack.
         </p>
       </div>
       <div className='grid col-span-2 row-start-3 gap-2 p-4 md:ml-16 mt-28 lg:ml-16 xl:ml-96 lg:mt-64'>
