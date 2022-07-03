@@ -17,13 +17,12 @@ export const Presentation = () => {
             <div className='mt-24 ml-4 text-2xl font-bold text-white lg:mt-30 md:mt-24 lg:text-4xl md:ml-32 lg:ml-40'
                 >
                 <div data-aos-duration="2000" data-aos="fade-right">
-                    <p>Desarrollador Full Stack</p>
+                    <p>Desarrollador Full Stack & Técnico de Sistemas</p>
                 </div>
                 <div data-aos-duration='2000' data-aos="fade-up">
                     <p className='pt-5 mb-2 mr-8 text-xl font-light text-white'>
-                        Autodidacta, apasionado por la 
-                        informática y la programación. Especializado en el 
-                        stack MERN
+                        Autodidacta, curioso por naturaleza y apasionado de las tecnologías.
+                        Especializado en el stack MERN
                     </p>
                     
                     <form action='mailto:yusnebez@gmail.com'>
