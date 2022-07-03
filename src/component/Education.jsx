@@ -23,7 +23,7 @@ export const Education = () => {
         las posibles novedades y cambios en ellas. En este último año he realizado un Boot Cam de programación para ampliar mis conocimiento y adentrarme 
         laboralmente en el mundo del desarrollo.
         </p>
-        <p>
+        <p className='container grid pl-4 pr-4 text-lg text-left text-white lg:mt-4 lg:mx-auto lg:text-2xl lg:mr-20 lg:text-center'>
           Hola soy Zebensui Herrera. Mi camino en la informática comenzo hace 25 años. Destacaría la experiencia
           ganada siendo formador y de técnico de Apple, que me permitio escribir dos libros dígitales en el iBookStore.
           Ser Técnico Superior de Sistemas y Redes y convertirme en desarrollador Full Stack, debido a mi curiosidad
