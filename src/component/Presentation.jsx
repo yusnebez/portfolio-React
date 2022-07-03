@@ -16,10 +16,10 @@ export const Presentation = () => {
         <div  className='col-start-1 row-start-1 lg:row-start-2'>
             <div className='ml-4 text-2xl font-bold text-white mt-28 lg:mt-30 md:mt-24 lg:text-4xl md:ml-32 lg:ml-40 '
                 >
-                <div data-aos-duration='100' data-aos="fade-right">
+                <div data-aos-duration="2000" data-aos="fade-right">
                     <p>Desarrollador Full Stack</p>
                 </div>
-                <div data-aos-duration='100' data-aos="fade-up">
+                <div data-aos-duration='2000' data-aos="fade-up">
                     <p className='pt-5 mr-8 text-xl font-light text-white'>
                         Autodidacta, apasionado por la 
                         informática y la programación. Especializado en el 
@@ -34,7 +34,7 @@ export const Presentation = () => {
             </div>
         </div>
         <div className='col-start-1 row-start-1'>
-            <div className='lg:mt-80 mt-16 md:mt-8 lg:text-4xl  font-bold text-[#6A98F0] lg:ml-40 md:ml-32 pb-2 text-2xl ml-4'
+            <div data-aos-duration='2000' data-aos="fade-down" className='lg:mt-80 mt-16 md:mt-8 lg:text-4xl  font-bold text-[#6A98F0] lg:ml-40 md:ml-32 pb-2 text-2xl ml-4'
                 >
                 Zebensui Herrera
             </div>
