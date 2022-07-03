@@ -13,19 +13,24 @@ export const Presentation = () => {
     <motion.div className="grid lg:h-screen lg:grid-cols-2 bg-cover lg:grid-rows-2 bg-[#191919]"  id='presentation'
   
     >
-        <div data-aos="fade-up"  className='col-start-1 row-start-1 lg:row-start-2'>
+        <div  className='col-start-1 row-start-1 lg:row-start-2'>
             <div className='ml-4 text-2xl font-bold text-white mt-28 lg:mt-30 md:mt-24 lg:text-4xl md:ml-32 lg:ml-40 '
                 >
-                Desarrollador Full Stack 
-                <p className='pt-5 mr-8 text-xl font-light text-white'>
-                    Autodidacta, apasionado por la 
-                    informática y la programación. Especializado en el 
-                    stack MERN
-                </p>
-                <form action='mailto:yusnebez@gmail.com'>
-                <button type='submit' className='px-3 py-1 mt-5 text-xl bg-[#6A98F0] hover:scale-110  rounded-sm
-                '>Hiring me</button>
-                </form>
+                <div data-aos-duration='100' data-aos="fade-right">
+                    <p>Desarrollador Full Stack</p>
+                </div>
+                <div data-aos-duration='100' data-aos="fade-up">
+                    <p className='pt-5 mr-8 text-xl font-light text-white'>
+                        Autodidacta, apasionado por la 
+                        informática y la programación. Especializado en el 
+                        stack MERN
+                    </p>
+                    
+                    <form action='mailto:yusnebez@gmail.com'>
+                    <button type='submit' className='px-3 py-1 mt-5 text-xl bg-[#6A98F0] hover:scale-110  rounded-sm
+                    '>Hiring me</button>
+                    </form>
+                </div>
             </div>
         </div>
         <div className='col-start-1 row-start-1'>
