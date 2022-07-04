@@ -50,7 +50,7 @@ export const Presentation = () => {
             <AiOutlineDown  className='mb-16 mr-2 text-3xl text-white' />
         </div>
         <div div data-aos-duration="3000" data-aos="fade-left" className='mt-56 ml-16 lg:col-start-2 lg:row-start-1'>
-            <img  src='https://res.cloudinary.com/zeben/image/upload/v1656899837/portfolio/con_desenfoque_wxdrud.png'/>
+            <img  src='https://res.cloudinary.com/zeben/image/upload/c_scale,w_1000/v1656929380/portfolio/Dise%C3%B1o_sin_t%C3%ADtulo_9_gc5zna.png'/>
         </div>
         
     </motion.div>
