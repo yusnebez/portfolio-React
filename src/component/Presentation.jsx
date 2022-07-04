@@ -10,7 +10,7 @@ export const Presentation = () => {
     
   return (
     
-    <motion.div className="grid lg:h-screen lg:grid-cols-2 bg-cover lg:grid-rows-2 bg-[#191919]"  id='presentation'
+    <motion.div className="grid lg:h-screen lg:grid-cols-2 bg-cover lg:grid-rows-2  bg-[#191919]"  id='presentation'
   
     >
         <div  className='col-start-1 row-start-1 lg:row-start-2'>
@@ -38,6 +38,7 @@ export const Presentation = () => {
                 Zebensui Herrera
             </div>
         </div>
+        
         <div className='hidden text-center lg:grid lg:row-start-5 md:col-span-2'>
             <div className='mt-24 mb-4 ml-8 text-lg text-[#191919] md:text-white'
                 >
@@ -45,8 +46,11 @@ export const Presentation = () => {
             </div>
         </div>
         
-        <div data-aos="zoom-out" data-aos-duration='2000' className='hidden col-start-2 row-start-6 lg:grid'>
+        <div className='hidden col-start-2 row-start-6 lg:grid'>
             <AiOutlineDown  className='mb-16 mr-2 text-3xl text-white' />
+        </div>
+        <div div data-aos-duration="3000" data-aos="fade-left" className='mt-56 ml-16 lg:col-start-2 lg:row-start-1'>
+            <img  src='https://res.cloudinary.com/zeben/image/upload/v1656899837/portfolio/con_desenfoque_wxdrud.png'/>
         </div>
         
     </motion.div>
