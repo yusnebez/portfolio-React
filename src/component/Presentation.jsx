@@ -13,7 +13,7 @@ export const Presentation = () => {
     
     <motion.div className="grid lg:h-screen lg:grid-cols-2 bg-cover lg:grid-rows-2  bg-[#191919]"  id='presentation'
   
-    >
+    >   
         <div  className='col-start-1 row-start-1 lg:row-start-2'>
             <div className='mt-24 ml-4 text-2xl font-bold text-white lg:-mt-16 md:mt-24 lg:text-4xl md:ml-32 lg:ml-40'
                 >

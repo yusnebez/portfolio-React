@@ -11,11 +11,11 @@ export const Proyect = () => {
     >
       
       <div className='grid grid-cols-1 grid-rows-3 gap-5 mt-5 ml-6 mr-6 lg:gap-10 xl:ml-40 lg:grid-rows-3 lg:ml-20'>
-        <div className='grid gap-4 lg: lg:grid-cols-1 xl:grid-cols-2'>
-            <img className='xl:hidden lg:landscape:h-[500px] grid col-start-1 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] lg:w-[970px] xl:landscape:w-[625px] md:w-[680px] md:ml-20  lg:landscape:w-full'
-              src='https://res.cloudinary.com/zeben/image/upload/c_scale,h_600,w_1000,x_897,y_0/v1656988127/portfolio/Screenshot_135_xfoc4f.png'>
+        <div className='grid gap-4 lg:grid-cols-1 xl:grid-cols-2'>
+            <img className='xl:landscape:hidden lg:landscape:h-[500px] md:landscape:hidden lg:landscape:grid col-start-1 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] lg:w-[970px] xl:landscape:w-[625px] md:w-[680px] md:ml-20  lg:landscape:w-full'
+              src='https://res.cloudinary.com/zeben/image/upload/c_scale,h_600,w_1000/v1657054260/portfolio/Screenshot_135_ixvtmq.png'>
             </img>
-            <img className='xl:hidden portrait:hidden lg:landscape:hidden grid col-start-1 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] lg:w-[970px] xl:landscape:w-[625px] md:w-[680px] md:ml-20  lg:landscape:w-full'
+            <img className='portrait:hidden lg:landscape:hidden grid col-start-1 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] lg:w-[970px] xl:landscape:w-[625px] md:w-[680px] md:ml-20  lg:landscape:w-full'
               src='https://res.cloudinary.com/zeben/image/upload/c_scale,h_300,w_625/v1657054260/portfolio/Screenshot_135_ixvtmq.png'>
             </img>
             <div className='grid col-start-1 -mt-16 xl:mt-0 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] md:w-[680px] xl:landscape:w-[625px] lg:w-[970px] md:ml-20 lg:landscape:w-full'>
@@ -40,8 +40,8 @@ export const Proyect = () => {
             </div>
           </div>
           <div className='grid row-start-2 gap-4 lg:grid-cols-1 xl:grid-cols-2'>
-            <img className='xl:hidden lg:landscape:h-[500px] grid col-start-1 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] lg:w-[970px] xl:landscape:w-[625px] md:w-[680px] md:ml-20  lg:landscape:w-full'
-              src='https://res.cloudinary.com/zeben/image/upload/c_scale,h_600,w_1000/v1656988127/portfolio/Screenshot_123_ks2gwu.png'>
+            <img className='xl:landscape:hidden lg:landscape:h-[500px] md:landscape:hidden lg:landscape:grid col-start-1 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] lg:w-[970px] xl:landscape:w-[625px] md:w-[680px] md:ml-20  lg:landscape:w-full'
+              src='https://res.cloudinary.com/zeben/image/upload/c_scale,h_600,w_1000/v1657054260/portfolio/Screenshot_123_lwtggw.png'>
             </img>
             <img className='xl:hidden portrait:hidden lg:landscape:hidden grid col-start-1 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] lg:w-[970px] xl:landscape:w-[625px] md:w-[680px] md:ml-20  lg:landscape:w-full'
               src='https://res.cloudinary.com/zeben/image/upload/c_scale,h_300,w_625/v1657054260/portfolio/Screenshot_123_lwtggw.png'>
@@ -68,7 +68,7 @@ export const Proyect = () => {
           </div>
           
           <div className='grid row-start-3 gap-4 lg:grid-cols-1 xl:grid-cols-2'>
-            <img className='xl:hidden lg:landscape:h-[500px] grid col-start-1 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] lg:w-[970px] xl:landscape:w-[625px] md:w-[680px] md:ml-20  lg:landscape:w-full'
+            <img className='xl:landscape:hidden lg:landscape:h-[500px] md:landscape:hidden lg:landscape:grid col-start-1 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] lg:w-[970px] xl:landscape:w-[625px] md:w-[680px] md:ml-20  lg:landscape:w-full'
               src='https://res.cloudinary.com/zeben/image/upload/c_scale,h_600,w_1000/v1656986906/portfolio/Screenshot_134_vxsg9e.png'>
             </img>
             <img className='xl:hidden portrait:hidden lg:landscape:hidden grid col-start-1 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] lg:w-[970px] xl:landscape:w-[625px] md:w-[680px] md:ml-20  lg:landscape:w-full'
