@@ -6,7 +6,8 @@ import {SiMongodb} from 'react-icons/si'
 import {SiTypescript} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
 import {FaGitSquare} from 'react-icons/fa'
-
+import {Link as Links} from 'react-scroll'
+import {AiOutlineDown} from 'react-icons/ai'
 
 export const Education = () => {
   return (
@@ -39,7 +40,6 @@ export const Education = () => {
           <SiTailwindcss className='grid lg:col-start-7 text-7xl text-[#6A98F0]'/>
         </div>
       </div>
-      
     </div>
   </motion.div>
   )

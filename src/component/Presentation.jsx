@@ -2,6 +2,7 @@ import {motion} from 'framer-motion'
 import {AiOutlineDown} from 'react-icons/ai'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {Link as Links} from 'react-scroll'
 
 export const Presentation = () => {
     
@@ -45,10 +46,13 @@ export const Presentation = () => {
                 Scroll
             </div>
         </div>
-        
-        <div className='hidden col-start-2 row-start-6 lg:grid'>
-            <AiOutlineDown  className='mb-16 mr-2 text-3xl text-white' />
-        </div>
+        <div className='hidden col-start-2 row-start-6 lg:grid'><Links activeClass="active"
+          to="education"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        ><AiOutlineDown  className='mb-16 mr-2 text-3xl text-white'/></Links></div>
         <div div data-aos-duration="3000" data-aos="fade-left" className='lg:ml-16 lg:mt-40 lg:col-start-2 lg:row-start-1'>
             <img className='md:portrait:hidden md:landscape:hidden lg:landscape:grid' src='https://res.cloudinary.com/zeben/image/upload/c_scale,w_1000/v1656929380/portfolio/Dise%C3%B1o_sin_t%C3%ADtulo_9_gc5zna.png'/>
             <img className='xl:hidden portrait:hidden md:portrait:grid md:portrait:ml-40 sm:landscape:ml-40 lg:landscape:hidden' src='https://res.cloudinary.com/zeben/image/upload/c_scale,w_500/v1656929380/portfolio/Dise%C3%B1o_sin_t%C3%ADtulo_9_gc5zna.png'/>
