@@ -20,8 +20,8 @@ export const Proyect = () => {
             </img>
             <div className='grid col-start-1 -mt-16 xl:mt-0 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] md:w-[680px] xl:landscape:w-[625px] lg:w-[970px] md:ml-20 lg:landscape:w-full'>
               <p className='mt-6'>
-                Página web para gestión y reserva de villas. Se listán las villas solicitadas para poder reservarlas
-                y hacer el pago de las mismas. Se pueden gestionar las reservas, anularlas y tramitar todo sobre ellas.
+                Página web para gestión y reserva de villas. Se listan las villas solicitadas para poder reservarlas
+                y hacer el pago de las mismas.Podemos gestionar las reservas, anularlas y tramitar todo sobre ellas.
                 Accede al código del Back-End y el Front-End desde el repositorio de Github que dejo a continuación
               </p>
             <div className='grid grid-rows-1 mt-10 gris-cols-4'>
