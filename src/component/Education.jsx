@@ -24,7 +24,7 @@ export const Education = () => {
         <p className='container grid pl-4 pr-4 text-lg text-left text-white lg:mt-4 lg:mx-auto lg:text-2xl lg:mr-20 lg:text-center'>
           Hola soy Zebensui Herrera. De mi trayectoria profesional destaco mi trabajo como formador y técnico de Apple;
           mi pasión por la enseñanza me llevó a escribir y a publicar dos libros digitales en el iBookStore.
-          Soy Técnico Superior de Sistemas y Redes, debido a mi curiosidad, las ganas de aprender 
+          Soy Técnico Superior de Sistemas y Redes; debido a mi curiosidad, las ganas de aprender 
           y de seguir avanzado en mi carrera, realicé un Bootcamp lo que me permitió seguir aumentado mis capacidades profesionales como 
           desarrollador Full Stack.
         </p>

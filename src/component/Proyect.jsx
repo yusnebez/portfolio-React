@@ -20,9 +20,9 @@ export const Proyect = () => {
             </img>
             <div className='grid col-start-1 -mt-16 xl:mt-0 lg:ml-4 p-4 text-white bg-[#232323] rounded-lg lg:h-[300px] md:w-[680px] xl:landscape:w-[625px] lg:w-[970px] md:ml-20 lg:landscape:w-full'>
               <p className='mt-6'>
-                Página web para gestión y reserva de villas. Se listán las villas solicitadas pudiendo reservarlas
-                y haciendo el pago de la misma. Se puede gestionar las reservas, anularlas y gestionar todo sobre ellas.
-                Pueden ver el código del Back-End y el Front-End desde el repositorio de Github que dejo a continuación
+                Página web para gestión y reserva de villas. Se listán las villas solicitadas para poder reservarlas
+                y hacer el pago de las mismas. Se pueden gestionar las reservas, anularlas y tramitar todo sobre ellas.
+                Accede al código del Back-End y el Front-End desde el repositorio de Github que dejo a continuación
               </p>
             <div className='grid grid-rows-1 mt-10 gris-cols-4'>
               <img src='https://res.cloudinary.com/zeben/image/upload/c_scale,w_50/v1656980058/portfolio/react-2_mr5yao.svg' className='grid col-start-1 text-2xl md:ml-10 ml-10 w-[50px] h-[50px] text-[#6A98F0]'/>
