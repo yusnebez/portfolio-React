@@ -16,12 +16,13 @@ export const Contact = () => {
     transition={{duration: 1}}
     >
         
-            <div className='grid grid-cols-2 grid-rows-3'>
+            <div className='grid grid-cols-2 grid-rows-3 mt-16'>
                 {/*<h1 className='row-start-2 md:ml-32 lg:ml-28 ml-28 text-4xl font-bold text-[#6A98F0] mt-9 col-span-2'>Si todo lo que has leido te ha gustado</h1>*/}
-                <b className='col-span-2 row-start-3 mt-2 ml-6 mr-6 text-lg text-white md:ml-32 lg:ml-28 lg:-mt-24 md:col-span-1 landscape:col-span-2 landscape:ml-28 md:portrait:col-span-2 md:portrait:ml-28 '>Contacta conmigo. Soy la persona que estás buscando.</b>
+                <b className='col-span-2 row-start-2 ml-6 mr-6 text-lg text-white md:ml-32 lg:ml-28 lg:-mt-24 md:col-span-1 landscape:col-span-2 landscape:ml-28 md:portrait:col-span-2 md:portrait:ml-28 '>Contacta conmigo. Soy la persona que estás buscando.</b>
             </div>
         
             <div className='grid content-center grid-cols-1 ml-16 md:ml-28 lg:ml-2'>
+
                 <form  onSubmit={handleSubmit}>
                     <input className='grid lg:mt-20 mt-8 text-white placeholder-white bg-[#232323] border-b-2 outline-none md:w-[22em] xl:w-[35em] pb-3 border-black focus:border-b-2 focus:border-white font-bold text-xl'
                         id="email"
@@ -45,7 +46,7 @@ export const Contact = () => {
                         errors={state.errors}
                     />
                     <button className='grid col-span-2 py-2 mt-8 mb-16 text-lg bg-[#6A98F0] rounded-sm px-7 text-white hover:scale-110  ' type="submit" disabled={state.submitting}>
-                        Contact Me
+                        Enviar
                     </button>
                 </form>
             </div>
@@ -57,7 +58,7 @@ export const Contact = () => {
           offset={-200}
           duration={500}
           ><BsArrowUpCircle className='col-start-2 mb-10 text-4xl lg:col-start-1 lg:ml-30 lg:text-5xl ml-60'/></Links>
-            </div>
+        </div>
     </motion.div>
   );
 }
