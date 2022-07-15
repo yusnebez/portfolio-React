@@ -17,7 +17,7 @@ export const Education = () => {
     >
     <div className='grid grid-cols-2 grid-rows-2 lg:grid-rows-5 lg:h-[500px] xl:w-[1200px] lg:mb-32 rounded-sm gap-4  '>
       <div className='grid col-span-2 md:row-start-1 md:col-start-2'>
-        <p className='lg:mb-10 lg:text-3xl text-center md:text-left xl:ml-20 md:-ml-14 text-2xl text-[#6A98F0] mt-20 md:mt-30 lg:landscape:mt-10'>Sobre Mi</p>
+        <p className='lg:mb-10 lg:text-3xl text-center md:text-left xl:ml-20 md:-ml-14 text-2xl text-[#6A98F0] mt-20 md:mt-30 lg:landscape:mt-10'>Sobre Mí</p>
       </div>
       <div className='lg:mt-20 md:ml-20 pt-8 lg:h-[200px] md:w-[730px] h-[400px] xl:landscape:w-[1420px] lg:w-screen -mt-28 w-screen 
        rounded-sm row-start-2 bg-[#232323] lg:row-start-2 col-span-2 landscape:h-[250px] landscape:-mt-8 md:portrait:h-[250px] md:portrait:-mt-8 lg:landscape:mt-8 lg:landscape:w-[970px]'>

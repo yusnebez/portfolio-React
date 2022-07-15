@@ -17,6 +17,10 @@ export const Presentation = () => {
         <div  className='col-start-1 row-start-1 lg:row-start-2'>
             <div className='mt-24 ml-4 text-2xl font-bold text-white lg:-mt-16 md:mt-24 lg:text-4xl md:ml-32 lg:ml-40'
                 >
+                <div data-aos-duration='2000' data-aos="fade-down" className='lg:text-4xl mb-4 font-bold text-[#6A98F0] text-2xl'
+                >
+                Zebensui Herrera
+                </div>
                 <div data-aos-duration="2000" data-aos="fade-right">
                     <p>Desarrollador Full Stack & Técnico de Sistemas</p>
                 </div>
@@ -33,12 +37,7 @@ export const Presentation = () => {
                 </div>
             </div>
         </div>
-        <div className='col-start-1 row-start-1'>
-            <div data-aos-duration='2000' data-aos="fade-down" className='lg:mt-40 mt-16 md:mt-8 lg:text-4xl  font-bold text-[#6A98F0] lg:ml-40 md:ml-32 pb-2 text-2xl ml-4'
-                >
-                Zebensui Herrera
-            </div>
-        </div>
+        
         
         <div className='hidden text-center lg:grid lg:row-start-5 md:col-span-2'>
             <div className='mt-24 mb-4 ml-8 text-lg text-[#191919] md:text-white'

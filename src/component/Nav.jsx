@@ -19,7 +19,7 @@ export const Nav = () => {
           smooth={true}
           offset={0}
           duration={500}
-        >Sobre Mi</Links></li>
+        >Sobre Mí</Links></li>
         <li className='pt-3 pb-3 text-lg  hover:text-[#6A98F0]'><Links activeClass="active"
           to="proyect"
           spy={true}
