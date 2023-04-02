@@ -19,7 +19,7 @@ export const Presentation = () => {
                 >
                 <div data-aos-duration='2000' data-aos="fade-down" className='lg:text-4xl mb-4 font-bold text-[#6A98F0] text-2xl'
                 >
-                Zebensui Herrera
+                Zebensui Herrera Hernández
                 </div>
                 <div data-aos-duration="2000" data-aos="fade-right">
                     <p>Desarrollador Full Stack & Técnico de Sistemas</p>
